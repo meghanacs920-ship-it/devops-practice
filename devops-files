@@ -1,0 +1,12 @@
+#!/bin/bash
+
+read -p "enter your name": name
+echo $name
+
+if [ $name == "meghana" ]; then
+	echo "good name"
+
+else
+	echo "nice name"
+
+fi
